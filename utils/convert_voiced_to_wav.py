@@ -2,8 +2,8 @@ import wfdb
 import soundfile as sf
 from pathlib import Path
 
-input_dir = Path("data/audio/voiced")
-output_dir = input_dir / "converted"
+input_dir = Path("data/audio/spectrograms")
+output_dir = input_dir / "raw_wav"
 output_dir.mkdir(parents=True, exist_ok=True)
 
 # Processa todos os arquivos .dat
