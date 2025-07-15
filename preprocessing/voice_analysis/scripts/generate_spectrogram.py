@@ -5,7 +5,7 @@ import numpy as np
 import os
 
 # Caminho para o arquivo real (exemplo)
-audio_path = "C:/Users/adria/PycharmProjects/WorkSpace/alzheimer-parkinson-ai/data/audio/raw_wav/voice001.wav"
+audio_path = "C:/Users/adria/PycharmProjects/WorkSpace/alzheimer-parkinson-ai/data/audio/raw_wav/voice010.wav"
 
 # Verificação se o arquivo existe
 if not os.path.isfile(audio_path):
@@ -28,5 +28,6 @@ librosa.display.specshow(S_dB, sr=sr, x_axis='time', y_axis='mel')
 plt.colorbar(format='%+2.0f dB')
 plt.title('Espectrograma de Mel')
 plt.tight_layout()
-plt.savefig('C:/Users/adria/PycharmProjects/WorkSpace/alzheimer-parkinson-ai/data/audio/spectrograms/voice001_melspec.png')
-plt.show()
+plt.savefig('C:/Users/adria/PycharmProjects/WorkSpace/alzheimer-parkinson-ai/data/audio/spectrograms/voice010_melspec.png')
+plt.close()
+#plt.show()
