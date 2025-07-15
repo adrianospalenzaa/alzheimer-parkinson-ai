@@ -4,10 +4,9 @@ import librosa.display
 import numpy as np
 import os
 
-# Caminho para o arquivo real (exemplo)
 audio_path = "C:/Users/adria/PycharmProjects/WorkSpace/alzheimer-parkinson-ai/data/audio/raw_wav/voice010.wav"
 
-# Verificação se o arquivo existe
+# Verificação arquivo
 if not os.path.isfile(audio_path):
     raise FileNotFoundError(f"Arquivo de áudio não encontrado em: {audio_path}")
 

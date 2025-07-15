@@ -48,7 +48,7 @@ def extrair_features(audio_path, pasta_saida='"C:/Users/adria/PycharmProjects/Wo
     return features_dict
 
 
-# ⬇️ Teste unitário – roda apenas se executar esse script diretamente
+# Teste unitário
 if __name__ == "__main__":
     caminho = "C:/Users/adria/PycharmProjects/WorkSpace/alzheimer-parkinson-ai/data/audio/raw_wav/voice002.wav"
     extrair_features(caminho, pasta_saida="C:/Users/adria/PycharmProjects/WorkSpace/alzheimer-parkinson-ai/data/audio/features")
