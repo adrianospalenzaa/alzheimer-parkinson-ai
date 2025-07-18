@@ -20,7 +20,7 @@ def extrair_features(audio_path, pasta_saida='"C:/Users/adria/PycharmProjects/Wo
     pitch_mean = np.mean(f0_valid)
     pitch_std = np.std(f0_valid)
 
-    # Jitter
+    ## Jitter
     diff_f0 = np.abs(np.diff(f0_valid))
     jitter = np.mean(diff_f0)
 
