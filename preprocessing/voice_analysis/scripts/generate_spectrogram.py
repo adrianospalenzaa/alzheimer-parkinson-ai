@@ -4,7 +4,7 @@ import librosa.display
 import numpy as np
 import os
 
-audio_path = "C:/Users/adria/PycharmProjects/WorkSpace/alzheimer-parkinson-ai/data/audio/raw_wav/voice010.wav"
+audio_path = "C:/Users/adria/PycharmProjects/alzheimer-parkinson-ai/data/audio/raw_wav/voice010.wav"
 
 # Verificação arquivo
 if not os.path.isfile(audio_path):
@@ -27,6 +27,6 @@ librosa.display.specshow(S_dB, sr=sr, x_axis='time', y_axis='mel')
 plt.colorbar(format='%+2.0f dB')
 plt.title('Espectrograma de Mel')
 plt.tight_layout()
-plt.savefig('C:/Users/adria/PycharmProjects/WorkSpace/alzheimer-parkinson-ai/data/audio/spectrograms/voice010_melspec.png')
+plt.savefig('C:/Users/adria/PycharmProjects/alzheimer-parkinson-ai/data/audio/spectrograms/voice010_melspec.png')
 plt.close()
 #plt.show()

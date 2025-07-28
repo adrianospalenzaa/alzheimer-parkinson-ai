@@ -2,8 +2,8 @@ import os
 from extrair_features import extrair_features  # importa a função que você criou
 
 # caminho áudios
-pasta_wavs = "C:/Users/adria/PycharmProjects/WorkSpace/alzheimer-parkinson-ai/data/audio/raw_wav"
-pasta_saida = "C:/Users/adria/PycharmProjects/WorkSpace/alzheimer-parkinson-ai/data/audio/features"
+pasta_wavs = "C:/Users/adria/PycharmProjects/alzheimer-parkinson-ai/data/audio/raw_wav"
+pasta_saida = "C:/Users/adria/PycharmProjects/alzheimer-parkinson-ai/data/audio/features"
 
 # Listar os arquivos .wav
 arquivos = [f for f in os.listdir(pasta_wavs) if f.endswith(".wav")]

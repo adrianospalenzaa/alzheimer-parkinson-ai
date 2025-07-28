@@ -1,4 +1,4 @@
-def extrair_features(audio_path, pasta_saida='"C:/Users/adria/PycharmProjects/WorkSpace/alzheimer-parkinson-ai/data/audio/features"'):
+def extrair_features(audio_path, pasta_saida='"C:/Users/adria/PycharmProjects/alzheimer-parkinson-ai/data/audio/features"'):
     import librosa
     import numpy as np
     import pandas as pd
@@ -50,6 +50,6 @@ def extrair_features(audio_path, pasta_saida='"C:/Users/adria/PycharmProjects/Wo
 
 ### Teste unitário
 if __name__ == "__main__":
-    caminho = "C:/Users/adria/PycharmProjects/WorkSpace/alzheimer-parkinson-ai/data/audio/raw_wav/voice001.wav"
-    extrair_features(caminho, pasta_saida="C:/Users/adria/PycharmProjects/WorkSpace/alzheimer-parkinson-ai/data/audio/features")
+    caminho = "C:/Users/adria/PycharmProjects/alzheimer-parkinson-ai/data/audio/raw_wav/voice001.wav"
+    extrair_features(caminho, pasta_saida="C:/Users/adria/PycharmProjects/alzheimer-parkinson-ai/data/audio/features")
 
